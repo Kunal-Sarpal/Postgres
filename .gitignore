@@ -1,3 +1,8 @@
-node_modules
-dist
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Environment variables
 .env
