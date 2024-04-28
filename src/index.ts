@@ -78,7 +78,5 @@ async function findData(email:string){
         console.log("Connection closed");
     }
 }
-// createTable()
-// addData("Kunal","sarpalkunal7@gmail.com","#KUnal30%");
-// addData("Kunalji","sarpal1kunal7@gmail.com","#KUnal30%");
+
 findData("sarpalkunal@gmail.com").catch(console.error);
