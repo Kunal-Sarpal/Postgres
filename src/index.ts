@@ -5,11 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const client = new Client({
-  // host:"ep-bold-bush-a55qdzwj.us-east-2.aws.neon.tech",
-  // port:5432,
-  // database:"test",
-  // user:"test_owner",
-  // password: "VfZz2YDh9RMg"
+
   connectionString: process.env.URL_PATH
 });
 
